@@ -205,12 +205,6 @@ str(activityData)
 ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...
 </code></pre>
 
-<pre><code class="r"># summary(activityData)
-# 
-# library(lattice)
-# xyplot(steps ~ interval | date, data = activityData, type=&quot;l&quot;, layout = c(7,9), )
-</code></pre>
-
 <h2>What is mean total number of steps taken per day?</h2>
 
 <pre><code class="r">totalSteps &lt;- aggregate(steps ~ date, activityData, sum)

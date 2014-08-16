@@ -8,11 +8,6 @@ activityData <- read.csv(unz("activity.zip", "activity.csv"),
                          colClasses=c("integer","Date","integer"))
 
 str(activityData)
-# summary(activityData)
-# 
-# library(lattice)
-# xyplot(steps ~ interval | date, data = activityData, type="l", layout = c(7,9), )
-
 ```
 
 

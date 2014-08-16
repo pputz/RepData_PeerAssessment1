@@ -18,13 +18,6 @@ str(activityData)
 ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...
 ```
 
-```r
-# summary(activityData)
-# 
-# library(lattice)
-# xyplot(steps ~ interval | date, data = activityData, type="l", layout = c(7,9), )
-```
-
 
 ## What is mean total number of steps taken per day?
 
